@@ -1,0 +1,385 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bebas Neue", serif;
+}
+
+body {
+    font-family: "Bebas Neue", serif;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Cabeçalho fixo */
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: white;
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+    z-index: 1000;
+}
+
+/* Container do cabeçalho */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+/* Logo na esquerda */
+.logo {
+    flex: 1;
+}
+.logo a {
+    font-family: "Sometype Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* Menu de navegação no centro */
+.nav-center {
+    display: flex;
+    flex: 2;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Links do menu */
+.nav-center a {
+    font-family: "Sometype Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+}
+
+/* Dropdown (submenus) */
+.dropdown {
+    position: relative;
+}
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    border: 1px solid #ddd;
+    min-width: 120px;
+    padding: 10px 0;
+}
+.dropdown-menu a {
+    font-family: "Sometype Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    display: block;
+    padding: 8px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Ícones do menu direito */
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.nav-right img {
+    height: 20px;
+    cursor: pointer;
+}
+
+/* Ajustar o tamanho dos ícones */
+i {
+    font-size: 15px;
+    color: black;
+    margin-right: 10px;
+}
+
+  /* Adiciona um efeito de hover para mudar a cor ao passar o mouse */
+i:hover {
+    color: #ff4500;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .nav-center {
+        display: none; /* Esconde menu no mobile */
+    }
+
+    .header-container {
+        justify-content: space-between;
+    }
+
+    .logo a {
+        font-size: 20px;
+    }
+
+    .nav-right img {
+        height: 18px;
+    }
+}
+
+/*Banner 1*/
+.banner1 {
+    font-family: "Sometype Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+.banner1 img {
+    width: 100%;
+    height: 90vh;
+    object-fit: cover
+}
+.banner1-texto {
+    position: absolute;
+    top: 45%;
+    left: 60%;
+    transform: translate(-1%, -50%);
+    text-align: center;
+}
+.banner1-texto h2 {
+    font-family: "Sometype Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    color: rgb(252, 252, 252);
+}
+.banner1-texto p {
+    font-family: "Sometype Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    color: white;
+}
+.botao-banner1 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgba(208, 197, 114, 0.502);
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.botao-banner1:hover {
+    background-color: rgba(71, 75, 31, 0.42);
+    
+}
+
+/* Drop 4*/
+
+.D4 {
+    padding: 40px 20px;
+    text-align: center;
+
+}
+.D4 h2 {
+    font-family: "Sometype Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    margin: 20px;
+    color: #000;
+}
+.produtosD4 {
+    padding: center;
+    text-align: left;
+}
+.produtos-containerD4 { /*Grid produtos*/
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px; /* Espaçamento entre as células do grid */
+    padding: 20px; /* Espaçamento interno do container */   
+    row-gap: 1.5ex; /* Espaçamento entre linhas */
+    column-gap: 10px; /* Espaçamento entre colunas */
+}
+.produtoD4 img { /*Imagem do produto*/
+    width: 270px;   /* Largura fixa da imagem */
+    height: 310px;  /* Altura fixa da imagem */
+    object-fit: cover; /* Garante que a imagem preencha o espaço sem distorção */   
+    border-radius: 10px; /*Borda da imagem*/
+}
+.titulo-produtoD4 { /*Descrição, preço*/
+    text-align: left;
+    font-family: "Sometype Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    flex-direction: column; /* Organiza título, preço coluna */
+    align-items: center;/* Centraliza o conteúdo */
+    justify-content: space-between; /* Distribui os elementos com espaçamento */
+    width: 100%; /* Garante que o conteúdo ocupe todo o espaço disponível */
+}
+.titulo-produtoD4 h3 { /*Descrição do produto*/
+    font-family: "Sometype Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px; /*Tamanho da letra*/
+    margin: 10px 0;
+    margin-bottom: 5px;
+    color: black;
+    line-height: 0.5rem; /*pular linha*/
+    text-align: left; /*Alinhamento de texto*/
+}
+.titulo-produtoD4 p { /*Preço*/
+    font-family: "Sometype Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    color: black;
+    margin-bottom: 5px;
+    text-align: left; /*Alinhamento de texto*/
+
+}
+.D4-1 {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/*Banner 2*/
+.banner2 {
+    font-family: "Sometype Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+.banner2 img {
+        width: 100%;
+        height: 90vh;
+        object-fit: cover
+}
+
+/* Mais Vendidos*/
+.mais-vendidos {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: white;
+}
+.mais-vendidos h2 {
+    font-family: "Sometype Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #000;
+}
+.produtosMV {
+    text-align: center;
+    padding: 30px;
+}
+.produtos-containerMV { /*Grid produtos*/
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 20px; /* Espaçamento entre as células do grid */
+    padding: 20px; /* Espaçamento interno do container */    
+    gap: 20ex; 
+}
+.produtoMV img { /*Imagem do produto*/
+    width: 320px;   /* Largura fixa da imagem */
+    height: 450px;  /* Altura fixa da imagem */
+    object-fit: cover; /* Garante que a imagem preencha o espaço sem distorção */   
+    border-radius: 10px; /*Borda da imagem*/
+    margin-bottom: 10px; /*Borda da imagem*/
+}
+.item-info { /*Descrição, preço e botão*/
+    font-family: "Sometype Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    flex-direction: column; /* Organiza título, preço e botão em coluna */
+    align-items: center; /* Centraliza o conteúdo */
+    justify-content: space-between; /* Distribui os elementos com espaçamento */
+    height: 100%; /* Garante que o conteúdo ocupe todo o espaço disponível */
+    margin-top: 10px;
+}
+.produtoMV h3 { /*Descrição do produto*/
+    font-family: "Sometype Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    margin: 10px 0;
+    margin-bottom: 5px;
+    color: black;
+}
+.produtoMV p { /*Preço*/
+    font-family: "Sometype Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2rem;
+    color: black;
+    margin-bottom: 5px;
+}
+.produtoMV a { /*Botão*/
+    font-family: "Sometype Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding: 10px 20px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.produtoMV a:hover { /*Mouse no botão*/
+    background-color: #424242;
+}
+
+/* Rodapé */
+footer {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+footer a {
+    font-family: "Sometype Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #f00;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
