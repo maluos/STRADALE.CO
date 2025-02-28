@@ -262,7 +262,7 @@ i:hover {
     text-align: left; /*Alinhamento de texto*/
 
 }
-.D4-1 {
+.D4 {
     padding: 40px 20px;
     text-align: center;
 }
@@ -284,84 +284,77 @@ i:hover {
         object-fit: cover
 }
 
-/* Mais Vendidos*/
-.mais-vendidos {
+/* Drop 4*/
+
+.MV {
     padding: 40px 20px;
     text-align: center;
-    background-color: white;
+
 }
-.mais-vendidos h2 {
+.MV h2 {
     font-family: "Sometype Mono", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-size: 2.5rem;
-    margin-bottom: 20px;
+    font-size: 2rem;
+    margin: 20px;
     color: #000;
 }
 .produtosMV {
-    text-align: center;
-    padding: 30px;
+    padding: center;
+    text-align: left;
 }
 .produtos-containerMV { /*Grid produtos*/
     display: grid;
-    grid-template-columns: repeat(3, 1fr); 
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px; /* Espaçamento entre as células do grid */
-    padding: 20px; /* Espaçamento interno do container */    
-    gap: 20ex; 
+    padding: 20px; /* Espaçamento interno do container */   
+    row-gap: 1.5ex; /* Espaçamento entre linhas */
+    column-gap: 10px; /* Espaçamento entre colunas */
 }
 .produtoMV img { /*Imagem do produto*/
-    width: 320px;   /* Largura fixa da imagem */
-    height: 450px;  /* Altura fixa da imagem */
+    width: 270px;   /* Largura fixa da imagem */
+    height: 310px;  /* Altura fixa da imagem */
     object-fit: cover; /* Garante que a imagem preencha o espaço sem distorção */   
     border-radius: 10px; /*Borda da imagem*/
-    margin-bottom: 10px; /*Borda da imagem*/
 }
-.item-info { /*Descrição, preço e botão*/
+.titulo-produtoMV { /*Descrição, preço*/
+    text-align: left;
     font-family: "Sometype Mono", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    display: flex;
-    flex-direction: column; /* Organiza título, preço e botão em coluna */
-    align-items: center; /* Centraliza o conteúdo */
+    flex-direction: column; /* Organiza título, preço coluna */
+    align-items: center;/* Centraliza o conteúdo */
     justify-content: space-between; /* Distribui os elementos com espaçamento */
-    height: 100%; /* Garante que o conteúdo ocupe todo o espaço disponível */
-    margin-top: 10px;
+    width: 100%; /* Garante que o conteúdo ocupe todo o espaço disponível */
 }
-.produtoMV h3 { /*Descrição do produto*/
+.titulo-produtoMV h3 { /*Descrição do produto*/
     font-family: "Sometype Mono", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.5rem;
+    font-size: 14px; /*Tamanho da letra*/
     margin: 10px 0;
     margin-bottom: 5px;
     color: black;
+    line-height: 0.5rem; /*pular linha*/
+    text-align: left; /*Alinhamento de texto*/
 }
-.produtoMV p { /*Preço*/
+.titulo-produtoMV p { /*Preço*/
     font-family: "Sometype Mono", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.2rem;
+    font-size: 12px;
     color: black;
     margin-bottom: 5px;
+    text-align: left; /*Alinhamento de texto*/
+
 }
-.produtoMV a { /*Botão*/
-    font-family: "Sometype Mono", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    padding: 10px 20px;
-    background-color: rgb(0, 0, 0);
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-.produtoMV a:hover { /*Mouse no botão*/
-    background-color: #424242;
+.MV {
+    padding: 40px 20px;
+    text-align: center;
 }
 
 /* Rodapé */
@@ -377,7 +370,7 @@ footer a {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    color: #f00;
+    color: rgba(0, 0, 0, 0.24);
     text-decoration: none;
 }
 footer a:hover {
