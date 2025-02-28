@@ -217,10 +217,12 @@ i:hover {
 .produtos-containerD4 { /*Grid produtos*/
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px; /* Espaçamento entre as células do grid */
-    padding: 20px; /* Espaçamento interno do container */   
+    gap: 22rem;/* Espaçamento entre os conteúdos do grid */
+    padding: 50px; /*Espaçamento entre conteúdo do grid e a borda */  
     row-gap: 1.5ex; /* Espaçamento entre linhas */
     column-gap: 10px; /* Espaçamento entre colunas */
+    justify-content: center; /*Centraliza o contúdo*/
+    justify-items: center; /*Centraliza o contúdo*/
 }
 .produtoD4 img { /*Imagem do produto*/
     width: 270px;   /* Largura fixa da imagem */
@@ -262,9 +264,17 @@ i:hover {
     text-align: left; /*Alinhamento de texto*/
 
 }
-.D4 {
-    padding: 40px 20px;
-    text-align: center;
+.botao-D4 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgba(208, 197, 114, 0.502);
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.botao-D4:hover {
+    background-color: rgba(71, 75, 31, 0.42);
+    
 }
 
 /*Banner 2*/
