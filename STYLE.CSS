@@ -116,10 +116,8 @@ i {
     color: black;
     margin-right: 10px;
 }
-
-  /* Adiciona um efeito de hover para mudar a cor ao passar o mouse */
 i:hover {
-    color: #ff4500;
+    color: #ff4500;   /* Adiciona um efeito de hover para mudar a cor ao passar o mouse */
 }
 
 /* Responsivo */
@@ -207,8 +205,17 @@ i:hover {
     font-weight: 400;
     font-style: normal;
     font-size: 2rem;
-    margin: 20px;
+    margin: 0;
     color: #000;
+}
+.subtituloD4 h3 {
+    font-family: "Sometype Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.8rem;
+    margin: 0;
+    color: #000; 
 }
 .produtosD4 {
     padding: center;
@@ -266,11 +273,11 @@ i:hover {
 }
 .botao-D4 {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 10px 80px; /*tamanho botao*/
     background-color: rgba(208, 197, 114, 0.502);
     color: white;
     text-decoration: none;
-    border-radius: 10px;
+    border-radius: 0px;
 }
 .botao-D4:hover {
     background-color: rgba(71, 75, 31, 0.42);
@@ -278,16 +285,6 @@ i:hover {
 }
 
 /*Banner 2*/
-.banner2 {
-    font-family: "Sometype Mono", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    position: relative;
-    text-align: center;
-    color: white;
-    margin: 0;
-}
 .banner2 img {
         width: 100%;
         height: 90vh;
@@ -295,7 +292,6 @@ i:hover {
 }
 
 /* Drop 4*/
-
 .MV {
     padding: 40px 20px;
     text-align: center;
@@ -317,10 +313,12 @@ i:hover {
 .produtos-containerMV { /*Grid produtos*/
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px; /* Espaçamento entre as células do grid */
-    padding: 20px; /* Espaçamento interno do container */   
+    gap: 22rem;/* Espaçamento entre os conteúdos do grid */
+    padding: 50px; /*Espaçamento entre conteúdo do grid e a borda */  
     row-gap: 1.5ex; /* Espaçamento entre linhas */
     column-gap: 10px; /* Espaçamento entre colunas */
+    justify-content: center; /*Centraliza o contúdo*/
+    justify-items: center; /*Centraliza o contúdo*/
 }
 .produtoMV img { /*Imagem do produto*/
     width: 270px;   /* Largura fixa da imagem */
@@ -365,6 +363,45 @@ i:hover {
 .MV {
     padding: 40px 20px;
     text-align: center;
+}
+
+/*Banner 3, 4, 5 e 6*/
+/* Container dos banners */
+.banners {
+    display: grid;
+    grid-template-columns: 1fr; /* Primeira foto ocupa toda a largura */
+    grid-template-rows: auto auto; /* Duas linhas: uma para banner3 e uma para banner6 */
+    gap: 0;
+}
+
+/* O banner3 ocupa toda a largura */
+.banner3 {
+    width: 100%;
+}
+.banner3 img {
+    width: 100%;
+    height: auto;
+}
+
+/* Banners 4 e 5, lado a lado */
+.banners {
+    grid-template-columns: 1fr 1fr; /* Duas colunas para banner4 e banner5 ficarem lado a lado */
+}
+.banner4, .banner5 {
+    width: 100%; /* Cada um ocupa metade da largura */
+}
+.banner4 img, .banner5 img {
+    width: 100%;
+    height: auto;
+}
+
+/* Banner6 ocupa toda a largura novamente */
+.banner6 {
+    width: 100%;
+}
+.banner6 img {
+    width: 100%;
+    height: auto;
 }
 
 /* Rodapé */
