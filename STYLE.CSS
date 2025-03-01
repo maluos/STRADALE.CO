@@ -149,6 +149,7 @@ i:hover {
     text-align: center;
     color: white;
     margin: 0;
+    margin-bottom: 40px;
 }
 .banner1 img {
     width: 100%;
@@ -310,15 +311,14 @@ i:hover {
     padding: center;
     text-align: left;
 }
-.produtos-containerMV { /*Grid produtos*/
+.produtos-containerMV {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 22rem;/* Espaçamento entre os conteúdos do grid */
-    padding: 50px; /*Espaçamento entre conteúdo do grid e a borda */  
-    row-gap: 1.5ex; /* Espaçamento entre linhas */
-    column-gap: 10px; /* Espaçamento entre colunas */
-    justify-content: center; /*Centraliza o contúdo*/
-    justify-items: center; /*Centraliza o contúdo*/
+    gap: 2rem; /* Ajuste o gap conforme necessário */
+    padding-top: 50px; /* Espaçamento entre conteúdo do grid e a borda */
+    padding-bottom: 10px;
+    justify-content: center; /* Centraliza o conteúdo */
+    justify-items: center; /* Centraliza o conteúdo */
 }
 .produtoMV img { /*Imagem do produto*/
     width: 270px;   /* Largura fixa da imagem */
@@ -404,13 +404,27 @@ i:hover {
 }
 
 .banner7 {
-    width: 100%; /* Faz com que o banner7 ocupe toda a largura da tela */
-    margin: 0; /* Remove qualquer margem externa */
-    padding: 0; /* Remove qualquer preenchimento interno */
+    width: 100%; 
+    margin: 0; 
+    padding: 0;
+    margin-bottom: 15rem;
 }
 .banner7 img {
     width: 100%; /* A imagem ocupa toda a largura da seção */
     height: 100vh; /* Aumenta a altura da imagem para ocupar 100% da altura da tela */
+}
+
+.snapwidget-container {
+    width: 100%; /* O widget irá ocupar 100% da largura da tela */
+    max-width: 1275px; /* Largura máxima de 1275px */
+    margin: 0 auto; /* Centraliza o widget */
+    padding: 20px; /* Preenchimento interno, ajuste conforme necessário */
+}
+.snapwidget-widget {
+    width: 100%; /* O widget ocupa 100% da largura do contêiner */
+    height: 510px; /* Ajuste a altura conforme necessário */
+    border: none;
+    overflow: hidden;
 }
 
 /* Rodapé */
