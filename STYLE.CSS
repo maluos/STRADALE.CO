@@ -365,50 +365,52 @@ i:hover {
     text-align: center;
 }
 
-/* Estilos para o Banner3 */
 .banner3 {
     width: 100%; /* Faz com que o banner3 ocupe toda a largura da tela */
-    margin-bottom: 20px; /* Espaço entre o Banner3 e os próximos banners (Banner4 e Banner5) */
 }
-
 .banner3 img {
     width: 100%; /* A imagem ocupa toda a largura da seção */
-    height: 90vh; /* Mantém a proporção da imagem */
+    height: 100vh; /* Aumenta a altura da imagem para ocupar 100% da altura da tela */
 }
 
-/* Estilos para a seção que contém o Banner4 e Banner5 */
 .banners {
     display: flex; /* Flexbox para organizar os banners lado a lado */
     justify-content: center; /* Centraliza as imagens horizontalmente */
     align-items: center; /* Centraliza as imagens verticalmente */
-    gap: 10px; /* Espaço entre as imagens dos banners */
-    margin-bottom: 20px; /* Espaço abaixo dos banners 4 e 5 antes do Banner6 */
+    gap: 0; /* Remove qualquer gap entre os banners */
 }
-
-/* Estilos para os banners Banner4 e Banner5 */
 .banner4, .banner5 {
     flex: 1; /* Cada banner ocupa 50% da largura da tela */
     display: flex; /* Flexbox dentro das seções para centralizar as imagens */
     justify-content: center; /* Centraliza as imagens horizontalmente */
     align-items: center; /* Centraliza as imagens verticalmente */
+    margin: 0; /* Remove qualquer margem externa */
+    padding: 0; /* Remove qualquer preenchimento interno */
 }
-
-/* Estilos para as imagens dentro do Banner4 e Banner5 */
 .banner4 img, .banner5 img {
     width: 100%; /* As imagens ocupam 100% da largura da seção */
     height: 100%; /* As imagens ocupam 100% da altura da seção */
     object-fit: cover; /* A imagem preenche o espaço sem distorcer */
 }
 
-/* Estilos para o Banner6 */
-.banner6 img {
-    width: 100%;
-    height: 90vh;
+.banner6 {
+    width: 100%; /* Faz com que o banner6 ocupe toda a largura da tela */
+    margin: 0; /* Remove qualquer margem externa */
+    padding: 0; /* Remove qualquer preenchimento interno */
 }
-
 .banner6 img {
     width: 100%; /* A imagem ocupa toda a largura da seção */
-    height: auto; /* Mantém a proporção da imagem */
+    height: 100vh; /* Aumenta a altura da imagem para ocupar 100% da altura da tela */
+}
+
+.banner7 {
+    width: 100%; /* Faz com que o banner7 ocupe toda a largura da tela */
+    margin: 0; /* Remove qualquer margem externa */
+    padding: 0; /* Remove qualquer preenchimento interno */
+}
+.banner7 img {
+    width: 100%; /* A imagem ocupa toda a largura da seção */
+    height: 100vh; /* Aumenta a altura da imagem para ocupar 100% da altura da tela */
 }
 
 /* Rodapé */
