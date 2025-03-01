@@ -373,7 +373,7 @@ i:hover {
 
 .banner3 img {
     width: 100%; /* A imagem ocupa toda a largura da seção */
-    height: auto; /* Mantém a proporção da imagem */
+    height: 90vh; /* Mantém a proporção da imagem */
 }
 
 /* Estilos para a seção que contém o Banner4 e Banner5 */
@@ -401,9 +401,9 @@ i:hover {
 }
 
 /* Estilos para o Banner6 */
-.banner6 {
-    width: 100%; /* O Banner6 ocupa toda a largura da tela */
-    margin-top: 20px; /* Espaço acima do Banner6, para que ele não fique colado ao Banner5 */
+.banner6 img {
+    width: 100%;
+    height: 90vh;
 }
 
 .banner6 img {
