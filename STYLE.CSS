@@ -319,6 +319,7 @@ i:hover {
     padding-bottom: 10px;
     justify-content: center;
     justify-items: center;
+    margin-bottom: 10rem; /*espacamento entre os produtos e conteudo de baixo*/
 }
 .produtoMV img {
     width: 270px;
@@ -386,6 +387,7 @@ i:hover {
     width: 100%;
     margin: 0;
     padding: 0;
+    margin-top: 0px; /*espacamento entre um banner e outro*/
 }
 .banner5 img {
     width: 100%;
@@ -395,7 +397,8 @@ i:hover {
     width: 100%;
     margin: 0;
     padding: 0;
-    margin-bottom: 15rem;
+    margin-top: -10px; /*espacamento entre um banner e outro*/
+    margin-bottom: 10rem; /*espacamento entre o banner e conteudo de baixo*/
 }
 .banner6 img {
     width: 100%;
@@ -410,6 +413,7 @@ i:hover {
     max-width: 1275px;
     margin: 0 auto;
     padding: 20px;
+    margin-bottom: 10rem; /*espacamento entre o feed e conteudo de baixo*/
 }
 .snapwidget-widget {
     width: 100%;
