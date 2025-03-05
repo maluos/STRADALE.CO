@@ -6,6 +6,8 @@
     font-family: "Bebas Neue", serif;
 }
 
+
+
 body {
     font-family: "Bebas Neue", serif;
     background-color: #f8f8f8;
@@ -13,7 +15,9 @@ body {
     line-height: 1.6;
 }
 
-/* Cabeçalho fixo */
+
+
+/* Cabeçalho */
 header {
     width: 100%;
     position: fixed;
@@ -24,8 +28,6 @@ header {
     border-bottom: 1px solid #ddd;
     z-index: 1000;
 }
-
-/* Container do cabeçalho */
 .header-container {
     display: flex;
     justify-content: space-between;
@@ -34,7 +36,6 @@ header {
     margin: auto;
     padding: 0 20px;
 }
-
 /* Logo na esquerda */
 .logo {
     flex: 1;
@@ -48,7 +49,6 @@ header {
     text-decoration: none;
     text-transform: uppercase;
 }
-
 /* Menu de navegação no centro */
 .nav-center {
     display: flex;
@@ -56,7 +56,6 @@ header {
     align-items: center;
     gap: 20px;
 }
-
 /* Links do menu */
 .nav-center a {
     font-family: "Sometype Mono", serif;
@@ -69,7 +68,6 @@ header {
     text-transform: uppercase;
     position: relative;
 }
-
 /* Dropdown (submenus) */
 .dropdown {
     position: relative;
@@ -98,7 +96,6 @@ header {
 .dropdown:hover .dropdown-menu {
     display: block;
 }
-
 /* Ícones do menu direito */
 .nav-right {
     display: flex;
@@ -109,7 +106,6 @@ header {
     height: 20px;
     cursor: pointer;
 }
-
 /* Ajustar o tamanho dos ícones */
 i {
     font-size: 15px;
@@ -117,9 +113,8 @@ i {
     margin-right: 10px;
 }
 i:hover {
-    color: #ff4500;   /* Adiciona um efeito de hover para mudar a cor ao passar o mouse */
+    color: #ff4500; /* Adiciona um efeito de hover para mudar a cor ao passar o mouse */
 }
-
 /* Responsivo */
 @media (max-width: 768px) {
     .nav-center {
@@ -139,7 +134,9 @@ i:hover {
     }
 }
 
-/*Banner 1*/
+
+
+/* Banner 1 */
 .banner1 {
     font-family: "Sometype Mono", serif;
     font-optical-sizing: auto;
@@ -154,7 +151,7 @@ i:hover {
 .banner1 img {
     width: 100%;
     height: 90vh;
-    object-fit: cover
+    object-fit: cover;
 }
 .banner1-texto {
     position: absolute;
@@ -190,15 +187,14 @@ i:hover {
 }
 .botao-banner1:hover {
     background-color: rgba(71, 75, 31, 0.42);
-    
 }
 
-/* Drop 4*/
 
+
+/* Drop 4 */
 .D4 {
     padding: 40px 20px;
     text-align: center;
-
 }
 .D4 h2 {
     font-family: "Sometype Mono", serif;
@@ -216,52 +212,52 @@ i:hover {
     font-style: normal;
     font-size: 0.8rem;
     margin: 0;
-    color: #000; 
+    color: #000;
 }
 .produtosD4 {
     padding: center;
     text-align: left;
 }
-.produtos-containerD4 { /*Grid produtos*/
+.produtos-containerD4 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 22rem;/* Espaçamento entre os conteúdos do grid */
-    padding: 50px; /*Espaçamento entre conteúdo do grid e a borda */  
+    gap: 22rem; /* Espaçamento entre os conteúdos do grid */
+    padding: 50px; /* Espaçamento entre conteúdo do grid e a borda */
     row-gap: 1.5ex; /* Espaçamento entre linhas */
     column-gap: 10px; /* Espaçamento entre colunas */
-    justify-content: center; /*Centraliza o contúdo*/
-    justify-items: center; /*Centraliza o contúdo*/
+    justify-content: center; /* Centraliza o conteúdo */
+    justify-items: center; /* Centraliza o conteúdo */
 }
-.produtoD4 img { /*Imagem do produto*/
-    width: 270px;   /* Largura fixa da imagem */
-    height: 310px;  /* Altura fixa da imagem */
-    object-fit: cover; /* Garante que a imagem preencha o espaço sem distorção */   
-    border-radius: 10px; /*Borda da imagem*/
+.produtoD4 img {
+    width: 270px; /* Largura fixa da imagem */
+    height: 310px; /* Altura fixa da imagem */
+    object-fit: cover; /* Garante que a imagem preencha o espaço sem distorção */
+    border-radius: 10px; /* Borda da imagem */
 }
-.titulo-produtoD4 { /*Descrição, preço*/
+.titulo-produtoD4 {
     text-align: left;
     font-family: "Sometype Mono", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     flex-direction: column; /* Organiza título, preço coluna */
-    align-items: center;/* Centraliza o conteúdo */
+    align-items: center; /* Centraliza o conteúdo */
     justify-content: space-between; /* Distribui os elementos com espaçamento */
     width: 100%; /* Garante que o conteúdo ocupe todo o espaço disponível */
 }
-.titulo-produtoD4 h3 { /*Descrição do produto*/
+.titulo-produtoD4 h3 {
     font-family: "Sometype Mono", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-size: 14px; /*Tamanho da letra*/
+    font-size: 14px;
     margin: 10px 0;
     margin-bottom: 5px;
     color: black;
-    line-height: 0.5rem; /*pular linha*/
-    text-align: left; /*Alinhamento de texto*/
+    line-height: 0.5rem;
+    text-align: left;
 }
-.titulo-produtoD4 p { /*Preço*/
+.titulo-produtoD4 p {
     font-family: "Sometype Mono", serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -269,12 +265,11 @@ i:hover {
     font-size: 12px;
     color: black;
     margin-bottom: 5px;
-    text-align: left; /*Alinhamento de texto*/
-
+    text-align: left;
 }
 .botao-D4 {
     display: inline-block;
-    padding: 10px 80px; /*tamanho botao*/
+    padding: 10px 80px;
     background-color: rgba(208, 197, 114, 0.502);
     color: white;
     text-decoration: none;
@@ -282,21 +277,23 @@ i:hover {
 }
 .botao-D4:hover {
     background-color: rgba(71, 75, 31, 0.42);
-    
 }
 
-/*Banner 2*/
+
+
+/* Banner 2 */
 .banner2 img {
-        width: 100%;
-        height: 90vh;
-        object-fit: cover
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
 }
 
-/* Drop 4*/
+
+
+/* Mais vendidos */
 .MV {
     padding: 40px 20px;
     text-align: center;
-
 }
 .MV h2 {
     font-family: "Sometype Mono", serif;
@@ -314,42 +311,42 @@ i:hover {
 .produtos-containerMV {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2rem; /* Ajuste o gap conforme necessário */
-    padding-top: 50px; /* Espaçamento entre conteúdo do grid e a borda */
+    gap: 2rem;
+    padding-top: 50px;
     padding-bottom: 10px;
-    justify-content: center; /* Centraliza o conteúdo */
-    justify-items: center; /* Centraliza o conteúdo */
+    justify-content: center;
+    justify-items: center;
 }
-.produtoMV img { /*Imagem do produto*/
-    width: 270px;   /* Largura fixa da imagem */
-    height: 310px;  /* Altura fixa da imagem */
-    object-fit: cover; /* Garante que a imagem preencha o espaço sem distorção */   
-    border-radius: 10px; /*Borda da imagem*/
+.produtoMV img {
+    width: 270px;
+    height: 310px;
+    object-fit: cover;
+    border-radius: 10px;
 }
-.titulo-produtoMV { /*Descrição, preço*/
+.titulo-produtoMV {
     text-align: left;
     font-family: "Sometype Mono", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    flex-direction: column; /* Organiza título, preço coluna */
-    align-items: center;/* Centraliza o conteúdo */
-    justify-content: space-between; /* Distribui os elementos com espaçamento */
-    width: 100%; /* Garante que o conteúdo ocupe todo o espaço disponível */
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }
-.titulo-produtoMV h3 { /*Descrição do produto*/
+.titulo-produtoMV h3 {
     font-family: "Sometype Mono", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-size: 14px; /*Tamanho da letra*/
+    font-size: 14px;
     margin: 10px 0;
     margin-bottom: 5px;
     color: black;
-    line-height: 0.5rem; /*pular linha*/
-    text-align: left; /*Alinhamento de texto*/
+    line-height: 0.5rem;
+    text-align: left;
 }
-.titulo-produtoMV p { /*Preço*/
+.titulo-produtoMV p {
     font-family: "Sometype Mono", serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -357,68 +354,68 @@ i:hover {
     font-size: 12px;
     color: black;
     margin-bottom: 5px;
-    text-align: left; /*Alinhamento de texto*/
-
-}
-.MV {
-    padding: 40px 20px;
-    text-align: center;
+    text-align: left;
 }
 
 
+
+/* Banners */
 .banners {
-    display: flex; /* Flexbox para organizar os banners lado a lado */
-    justify-content: center; /* Centraliza as imagens horizontalmente */
-    align-items: center; /* Centraliza as imagens verticalmente */
-    gap: 0; /* Remove qualquer gap entre os banners */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
 }
 .banner3, .banner4 {
-    flex: 1; /* Cada banner ocupa 50% da largura da tela */
-    display: flex; /* Flexbox dentro das seções para centralizar as imagens */
-    justify-content: center; /* Centraliza as imagens horizontalmente */
-    align-items: center; /* Centraliza as imagens verticalmente */
-    margin: 0; /* Remove qualquer margem externa */
-    padding: 0; /* Remove qualquer preenchimento interno */
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
 }
 .banner3 img, .banner4 img {
-    width: 100%; /* As imagens ocupam 100% da largura da seção */
-    height: 90vh; /* As imagens ocupam 100% da altura da seção */
-    object-fit: cover; /* A imagem preenche o espaço sem distorcer */
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
 }
-
 .banner5 {
-    width: 100%; 
+    width: 100%;
     margin: 0;
-    padding: 0; 
+    padding: 0;
 }
 .banner5 img {
-    width: 100%; 
-    height: 90vh; 
+    width: 100%;
+    height: 90vh;
 }
-
 .banner6 {
-    width: 100%; 
-    margin: 0; 
+    width: 100%;
+    margin: 0;
     padding: 0;
     margin-bottom: 15rem;
 }
 .banner6 img {
-    width: 100%; 
+    width: 100%;
     height: 90vh;
 }
 
+
+
+/* Snapwidget */
 .snapwidget-container {
-    width: 100%; /* O widget irá ocupar 100% da largura da tela */
-    max-width: 1275px; /* Largura máxima de 1275px */
-    margin: 0 auto; /* Centraliza o widget */
-    padding: 20px; /* Preenchimento interno, ajuste conforme necessário */
+    width: 100%;
+    max-width: 1275px;
+    margin: 0 auto;
+    padding: 20px;
 }
 .snapwidget-widget {
-    width: 100%; /* O widget ocupa 100% da largura do contêiner */
-    height: 510px; /* Ajuste a altura conforme necessário */
+    width: 100%;
+    height: 510px;
     border: none;
     overflow: hidden;
 }
+
+
 
 /* Rodapé */
 footer {
