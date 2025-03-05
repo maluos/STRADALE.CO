@@ -365,13 +365,6 @@ i:hover {
     text-align: center;
 }
 
-.banner3 {
-    width: 100%; /* Faz com que o banner3 ocupe toda a largura da tela */
-}
-.banner3 img {
-    width: 100%; /* A imagem ocupa toda a largura da seção */
-    height: 100vh; /* Aumenta a altura da imagem para ocupar 100% da altura da tela */
-}
 
 .banners {
     display: flex; /* Flexbox para organizar os banners lado a lado */
@@ -379,7 +372,7 @@ i:hover {
     align-items: center; /* Centraliza as imagens verticalmente */
     gap: 0; /* Remove qualquer gap entre os banners */
 }
-.banner4, .banner5 {
+.banner3, .banner4 {
     flex: 1; /* Cada banner ocupa 50% da largura da tela */
     display: flex; /* Flexbox dentro das seções para centralizar as imagens */
     justify-content: center; /* Centraliza as imagens horizontalmente */
@@ -387,31 +380,31 @@ i:hover {
     margin: 0; /* Remove qualquer margem externa */
     padding: 0; /* Remove qualquer preenchimento interno */
 }
-.banner4 img, .banner5 img {
+.banner3 img, .banner4 img {
     width: 100%; /* As imagens ocupam 100% da largura da seção */
-    height: 100%; /* As imagens ocupam 100% da altura da seção */
+    height: 90vh; /* As imagens ocupam 100% da altura da seção */
     object-fit: cover; /* A imagem preenche o espaço sem distorcer */
 }
 
-.banner6 {
-    width: 100%; /* Faz com que o banner6 ocupe toda a largura da tela */
-    margin: 0; /* Remove qualquer margem externa */
-    padding: 0; /* Remove qualquer preenchimento interno */
+.banner5 {
+    width: 100%; 
+    margin: 0;
+    padding: 0; 
 }
-.banner6 img {
-    width: 100%; /* A imagem ocupa toda a largura da seção */
-    height: 100vh; /* Aumenta a altura da imagem para ocupar 100% da altura da tela */
+.banner5 img {
+    width: 100%; 
+    height: 90vh; 
 }
 
-.banner7 {
+.banner6 {
     width: 100%; 
     margin: 0; 
     padding: 0;
     margin-bottom: 15rem;
 }
-.banner7 img {
-    width: 100%; /* A imagem ocupa toda a largura da seção */
-    height: 100vh; /* Aumenta a altura da imagem para ocupar 100% da altura da tela */
+.banner6 img {
+    width: 100%; 
+    height: 90vh;
 }
 
 .snapwidget-container {
