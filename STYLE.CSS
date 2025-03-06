@@ -147,9 +147,7 @@ i:hover {
     font-style: normal;
     position: relative;
     text-align: center;
-    color: white;
-    margin: 0;
-    margin-bottom: 40px;
+    color: white;;
 }
 .banner1 img {
     width: 100%;
@@ -205,7 +203,6 @@ i:hover {
     font-weight: 400;
     font-style: normal;
     font-size: 2rem;
-    margin: 0;
     color: #000;
 }
 .subtituloD4 h3 {
@@ -214,7 +211,6 @@ i:hover {
     font-weight: 400;
     font-style: normal;
     font-size: 0.8rem;
-    margin: 0;
     color: #000;
 }
 .produtosD4 {
@@ -225,11 +221,8 @@ i:hover {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
-    padding-top: 50px;
-    padding-bottom: 10px;
     justify-content: center;
     justify-items: center;
-    margin-bottom: 10rem; /*espacamento entre os produtos e conteudo de baixo*/
 }
 .produtoD4 img {
     width: 270px; /* Largura fixa da imagem */
@@ -304,7 +297,6 @@ i:hover {
     font-weight: 400;
     font-style: normal;
     font-size: 2rem;
-    margin: 20px;
     color: #000;
 }
 .produtosMV {
@@ -315,11 +307,9 @@ i:hover {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
-    padding-top: 50px;
-    padding-bottom: 10px;
     justify-content: center;
     justify-items: center;
-    margin-bottom: 10rem; /*espacamento entre os produtos e conteudo de baixo*/
+    margin-bottom: 5rem; /*espacamento entre os produtos e conteudo de baixo*/
 }
 .produtoMV img {
     width: 270px;
@@ -405,23 +395,6 @@ i:hover {
     width: 100%;
     height: 100vh;
     object-fit: cover;
-}
-
-
-
-/* Snapwidget */
-.snapwidget-container {
-    width: 100%;
-    max-width: 1275px;
-    margin: 0 auto;
-    padding: 20px;
-    margin-bottom: 10rem; /*espacamento entre o feed e conteudo de baixo*/
-}
-.snapwidget-widget {
-    width: 100%;
-    height: 510px;
-    border: none;
-    overflow: hidden;
 }
 
 
