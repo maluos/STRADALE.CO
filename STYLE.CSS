@@ -223,13 +223,13 @@ i:hover {
 }
 .produtos-containerD4 {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 22rem; /* Espaçamento entre os conteúdos do grid */
-    padding: 50px; /* Espaçamento entre conteúdo do grid e a borda */
-    row-gap: 1.5ex; /* Espaçamento entre linhas */
-    column-gap: 10px; /* Espaçamento entre colunas */
-    justify-content: center; /* Centraliza o conteúdo */
-    justify-items: center; /* Centraliza o conteúdo */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    justify-content: center;
+    justify-items: center;
+    margin-bottom: 10rem; /*espacamento entre os produtos e conteudo de baixo*/
 }
 .produtoD4 img {
     width: 270px; /* Largura fixa da imagem */
