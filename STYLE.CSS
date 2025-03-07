@@ -197,7 +197,7 @@ i:hover {
     padding: 40px 20px;
     text-align: center;
 }
-.D4 h2 {
+.tituloD4 h2 {
     font-family: "Sometype Mono", serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -217,12 +217,28 @@ i:hover {
     padding: center;
     text-align: left;
 }
-.produtos-containerD4 {
-    display: grid;
+.produtosD4-container1 {
+    display: flex;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+    gap: 10em;
     justify-content: center;
     justify-items: center;
+    margin-bottom: 3.5rem;
+}
+/*.produtosD4-container2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    justify-content: center;
+    justify-items: center;
+    margin-bottom: 3.5rem;
+}*/
+.produtosD4-container2{
+    display: flex;
+    flex-grow: 10rem;
+    justify-content: center;
+    gap: 10em;
+    margin-bottom: 3.5rem;
 }
 .produtosD4 img {
     width: 270px; /* Largura fixa da imagem */
@@ -263,18 +279,6 @@ i:hover {
     margin-bottom: 5px;
     text-align: left;
 }
-.botao-D4 {
-    display: inline-block;
-    padding: 10px 80px;
-    background-color: rgba(208, 197, 114, 0.502);
-    color: white;
-    text-decoration: none;
-    border-radius: 0px;
-}
-.botao-D4:hover {
-    background-color: rgba(71, 75, 31, 0.42);
-}
-
 
 
 /* Banner 2 */
