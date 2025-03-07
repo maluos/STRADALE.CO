@@ -224,13 +224,13 @@ i:hover {
     justify-content: center;
     justify-items: center;
 }
-.produtoD4 img {
+.produtosD4 img {
     width: 270px; /* Largura fixa da imagem */
     height: 310px; /* Altura fixa da imagem */
     object-fit: cover; /* Garante que a imagem preencha o espaço sem distorção */
     border-radius: 10px; /* Borda da imagem */
 }
-.titulo-produtoD4 {
+.titulo-produtosD4 {
     text-align: left;
     font-family: "Sometype Mono", serif;
     font-optical-sizing: auto;
@@ -241,7 +241,7 @@ i:hover {
     justify-content: space-between; /* Distribui os elementos com espaçamento */
     width: 100%; /* Garante que o conteúdo ocupe todo o espaço disponível */
 }
-.titulo-produtoD4 h3 {
+.titulo-produtosD4 h3 {
     font-family: "Sometype Mono", serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -253,7 +253,7 @@ i:hover {
     line-height: 0.5rem;
     text-align: left;
 }
-.titulo-produtoD4 p {
+.titulo-produtosD4 p {
     font-family: "Sometype Mono", serif;
     font-optical-sizing: auto;
     font-weight: 400;
