@@ -232,8 +232,8 @@ i:hover {
     margin-bottom: 3rem;
 }
 .produtosD4 img {
-    width: 18em; /* Largura fixa da imagem */
-    height: 23em; /* Altura fixa da imagem */
+    width: 18em; /* Largura */
+    height: 23em; /* Altura */
     object-fit: cover; /* Garante que a imagem preencha o espaço sem distorção */
     border-radius: 8px; /* Borda da imagem */
 }
