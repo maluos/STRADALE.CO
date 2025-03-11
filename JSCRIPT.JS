@@ -9,3 +9,5 @@ produto1D4.src = "./produtos/D4-GULF-CINZA-FRENTE-2.jpg";
 produto1D4.addEventListener ("mouseout", function () {
 produto1D4.src = "./produtos/D4 GULF CINZA COSTAS.jpg" ;
 })
+
+//FAEZR OS DEMAIS
