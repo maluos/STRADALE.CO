@@ -110,7 +110,7 @@ header {
 i {
     font-size: 15px;
     color: black;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 i:hover {
     color: rgba(41, 40, 39, 0.794); /* Adiciona um efeito de hover para mudar a cor ao passar o mouse */
@@ -154,7 +154,7 @@ i:hover {
 .banner1-texto {
     position: absolute;
     top: 45%;
-    left: 60%;
+    left: 71%;
     transform: translate(-1%, -50%);
     text-align: center;
 }
