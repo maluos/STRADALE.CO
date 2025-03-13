@@ -151,6 +151,7 @@ i:hover {
     height: 100vh;
     object-fit: cover;
 }
+/*
 .banner1-texto {
     position: absolute;
     top: 45%;
@@ -186,6 +187,7 @@ i:hover {
 .botao-banner1:hover {
     background-color: rgba(71, 75, 31, 0.42);
 }
+ */
 
 
 
@@ -269,78 +271,12 @@ i:hover {
 }
 
 
+
 /* Banner 2 */
 .banner2 img {
     width: 100%;
     height: 100vh;
     object-fit: cover;
-}
-
-
-
-/* Mais vendidos */ /*ALTERAR LAYOUT*/
-.MV {
-    padding: 40px 20px;
-    text-align: center;
-}
-.MV h2 {
-    font-family: "Sometype Mono", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 2rem;
-    color: #000;
-}
-.produtosMV {
-    padding: center;
-    text-align: left;
-}
-.produtos-containerMV {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
-    justify-content: center;
-    justify-items: center;
-    margin-bottom: 5rem; /*espacamento entre os produtos e conteudo de baixo*/
-}
-.produtoMV img {
-    width: 270px;
-    height: 310px;
-    object-fit: cover;
-    border-radius: 10px;
-}
-.titulo-produtoMV {
-    text-align: left;
-    font-family: "Sometype Mono", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-}
-.titulo-produtoMV h3 {
-    font-family: "Sometype Mono", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 14px;
-    margin: 10px 0;
-    margin-bottom: 5px;
-    color: black;
-    line-height: 0.5rem;
-    text-align: left;
-}
-.titulo-produtoMV p {
-    font-family: "Sometype Mono", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 12px;
-    color: black;
-    margin-bottom: 5px;
-    text-align: left;
 }
 
 
