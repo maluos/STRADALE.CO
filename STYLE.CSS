@@ -23,7 +23,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    background: white;
+    background: rgb(223, 220, 220);
     padding: 15px 0;
     border-bottom: 1px solid #ddd;
     z-index: 1000;
@@ -34,7 +34,7 @@ header {
     align-items: center;
     max-width: 1200px;
     margin: auto;
-    padding: 0 20px;
+    padding: 0;
 }
 /* Logo na esquerda */
 .logo {
@@ -42,12 +42,9 @@ header {
 }
 .logo a {
     font-family: "Sometype Mono", serif;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    color: black;
-    text-decoration: none;
-    text-transform: uppercase;
+    color: rgb(0, 0, 0);
 }
 /* Menu de navegação no centro */
 .nav-center {
@@ -196,6 +193,7 @@ i:hover {
 .D4 {
     padding: 40px 20px;
     text-align: center;
+
 }
 .tituloD4 h2 {
     font-family: "Sometype Mono", serif;
@@ -235,7 +233,6 @@ i:hover {
     width: 18em; /* Largura */
     height: 23em; /* Altura */
     object-fit: cover; /* Garante que a imagem preencha o espaço sem distorção */
-    border-radius: 8px; /* Borda da imagem */
 }
 .titulo-produtosD4 {
     text-align: left;
