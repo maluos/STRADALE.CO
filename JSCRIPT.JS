@@ -10,10 +10,10 @@ produto1D4.src = "./PRODUTOS D4 (FUNDO BRANCO)/D4 GULF PRETA COSTAS.jpeg" ;
 //MUDANÇA DE IMAGEM PRODUTO 2
 const produto2D4 = document.getElementById ("produto2D4") ;
 produto2D4.addEventListener ("mouseover", function () {
-produto2D4.src = "./PRODUTOS D4 (FUNDO BRANCO)/D4 BÁSICA PRETA COSTAS.jpeg";
+produto2D4.src = "./PRODUTOS D4 (FUNDO BRANCO)/D4 BÁSICA PRETA COSTAS.jpeg" ;
 })
 produto2D4.addEventListener ("mouseout", function () {
-produto2D4.src = "/PRODUTOS D4 (FUNDO BRANCO)/D4 BÁSICA PRETA FRENTE.jpeg"
+produto2D4.src = "/./PRODUTOS D4 (FUNDO BRANCO)/D4 BÁSICA PRETA FRENTE.jpeg" 
 })
 
 //MUDANÇA DE IMAGEM PRODUTO 3
