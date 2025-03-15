@@ -32,25 +32,27 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
-    margin: auto;
-    padding: 0;
+    margin: 0;
 }
 /* Logo na esquerda */
 .logo {
     flex: 1;
+    margin-left: 2em;
 }
 .logo a {
     font-family: "Sometype Mono", serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 20px;
     color: rgb(0, 0, 0);
 }
 /* Menu de navegação no centro */
 .nav-center {
     display: flex;
-    flex: 2;
-    align-items: center;
+    flex: 2.5;
+    align-items: relative;
+    margin-left: 20%;
+    margin-right: 20%;
     gap: 20px;
 }
 .nav-center a:hover {
@@ -59,14 +61,11 @@ header {
 /* Links do menu */
 .nav-center a {
     font-family: "Sometype Mono", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 14px;
+    font-size: 18px;
     color: black;
     text-decoration: none;
-    text-transform: uppercase;
     position: relative;
+
 }
 /* Dropdown (submenus) */
 .dropdown {
@@ -100,7 +99,8 @@ header {
 .nav-right {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 15px;
+    margin-right: 2em;
 }
 .nav-right img {
     height: 20px;
@@ -108,7 +108,7 @@ header {
 }
 /* Ajustar o tamanho dos ícones */
 i {
-    font-size: 15px;
+    font-size: 21px;
     color: black;
     margin-right: 20px;
 }
