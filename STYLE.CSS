@@ -42,7 +42,7 @@ header {
 .logo a {
     font-family: "Sometype Mono", serif;
     font-weight: 400;
-    font-style: normal;
+    font-style: none;
     font-size: 20px;
     color: rgb(0, 0, 0);
 }
@@ -220,7 +220,7 @@ i:hover {
 .produtosD4-container1 {
     display: flex;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10em;
+    gap: 5em;
     justify-content: center;
     justify-items: center;
     margin-bottom: 3em;
@@ -228,7 +228,7 @@ i:hover {
 .produtosD4-container2{
     display: flex;
     justify-content: center;
-    gap: 10em;
+    gap: 5em;
     margin-bottom: 3rem;
 }
 .produtosD4 img {
@@ -249,10 +249,8 @@ i:hover {
 }
 .titulo-produtosD4 h3 {
     font-family: "Sometype Mono", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 15px;
+    font-style: bolder;
+    font-size: 20px;
     margin: 10px 0;
     margin-bottom: 5px;
     color: black;
@@ -264,7 +262,7 @@ i:hover {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-size: 13px;
+    font-size: 18px;
     color: black;
     margin-bottom: 5px;
     text-align: left;
