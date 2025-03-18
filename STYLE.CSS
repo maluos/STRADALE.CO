@@ -151,44 +151,6 @@ i:hover {
     height: 100vh;
     object-fit: cover;
 }
-/*
-.banner1-texto {
-    position: absolute;
-    top: 45%;
-    left: 71%;
-    transform: translate(-1%, -50%);
-    text-align: center;
-}
-.banner1-texto h2 {
-    font-family: "Sometype Mono", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 3rem;
-    color: rgb(252, 252, 252);
-}
-.banner1-texto p {
-    font-family: "Sometype Mono", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1.2rem;
-    margin-top: 20px;
-    color: white;
-}
-.botao-banner1 {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: rgba(208, 197, 114, 0.502);
-    color: white;
-    text-decoration: none;
-    border-radius: 10px;
-}
-.botao-banner1:hover {
-    background-color: rgba(71, 75, 31, 0.42);
-}
- */
-
 
 
 /* Drop 4 */
@@ -201,8 +163,8 @@ i:hover {
     font-family: "Sometype Mono", serif;
     font-optical-sizing: auto;
     font-style: normal;
-    font-size: 40px;
-    font-weight: 300; /*ou bold*/
+    font-size: 60px;
+    font-weight: 400; /*ou bold*/
     color: #000;
 }
 .subtituloD4 h3 {
@@ -210,7 +172,7 @@ i:hover {
     font-optical-sizing: auto;
     font-style: normal;
     font-weight: 200, lighter;
-    font-size: 14px;
+    font-size: 20px;
     color: #000;
 }
 .produtosD4 {
@@ -232,8 +194,8 @@ i:hover {
     margin-bottom: 3rem;
 }
 .produtosD4 img {
-    width: 22em; /* Largura */
-    height: 22em; /* Altura */
+    width: 25em; /* Largura */
+    height: 25em; /* Altura */
     object-fit: cover; /* Garante que a imagem preencha o espaço sem distorção */
 }
 .titulo-produtosD4 {
