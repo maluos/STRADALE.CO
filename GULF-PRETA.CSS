@@ -1,0 +1,161 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bebas Neue", serif;
+    }
+    body {
+    font-family: "Bebas Neue", serif;
+    background-color: #ffffffb6;
+    color: #333;
+    line-height: 1.6;
+    }
+    /* Cabeçalho */
+    header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgb(223, 220, 220);
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+    z-index: 1000;
+    }
+    .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    }
+    /* Logo na esquerda */
+    .logo {
+    flex: 1;
+    margin-left: 2em;
+    }
+    .logo a {
+    font-family: "Sometype Mono", serif;
+    font-weight: 400;
+    font-style: none;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    }
+    /* Menu de navegação no centro */
+    .nav-center {
+    display: flex;
+    flex: 2.5;
+    align-items: relative;
+    margin-left: 20%;
+    margin-right: 20%;
+    gap: 20px;
+    }
+    .nav-center a:hover {
+    color: rgba(41, 40, 39, 0.794);
+    }
+    /* Links do menu */
+    .nav-center a {
+    font-family: "Sometype Mono", serif;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    position: relative;
+    }
+    /* Dropdown (submenus) */
+    .dropdown {
+    position: relative;
+    }
+    .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: rgb(223, 220, 220);
+    border: 1px solid #ddd;
+    min-width: 120px;
+    padding: 10px 0;
+    } 
+    .dropdown-menu a { 
+    font-family: "Sometype Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    display: block;
+    padding: 8px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    }
+    .dropdown:hover .dropdown-menu{ 
+    display: block;
+    }
+    /* Ícones do menu direito */
+    .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-right: 2em;
+    }
+    .nav-right img {
+    height: 20px;
+    cursor: pointer;
+    }
+    /* Ajustar o tamanho dos ícones */
+    i {
+    font-size: 21px;
+    color: black;
+    margin-right: 20px;
+    }
+    i:hover { 
+    color: rgba(41, 40, 39, 0.794); /* Adiciona um efeito de hover para mudar a cor ao passar o mouse */
+    }
+    /* Responsivo */
+    @media (max-width: 768px) {
+    .nav-center {
+    display: none; /* Esconde menu no mobile */
+    }
+    .header-container {
+    justify-content: space-between;
+    }
+    .logo a {
+    font-size: 20px;
+    }
+    .nav-right img {
+    height: 18px;
+    }
+    }
+    /* Carrossel */
+    .produto {
+    margin-top: 10%;
+    position: relative;
+    margin-left: 19%;
+    }
+    .produto img {
+    width: 32em;
+    height: 34em;
+    object-fit: cover;
+    }
+    .infos {
+    position: relative;
+    margin-left: 54%;
+    margin-top: -34%;
+    }
+    .carrossel-container {
+    width: 32em;
+    height: 34em;
+    overflow: hidden;
+    position: relative;
+    }
+    .carrossel {
+    display: flex;
+    transition: transform 0.5s ease;
+    }
+    .imagem {
+    min-width: 100%;
+    height: 100%;
+    }
+    .imagem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    }
+    
